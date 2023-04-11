@@ -6,10 +6,11 @@
 
 
 
-function str(string){
-    var count = string.length
+function str(stringOne){
+    var count = stringOne.length
     console.log(count);
 }
 
 
-str("Test");
+str("stringOne");
+var stringOne = "This is a test String";
