@@ -25,7 +25,8 @@
 function phoneticLookup(val) {
   let result = "";
 
-  // Only change code below this line
+  // Created an object by the name lookup and added property value pairsi
+
    const lookup = {
        "alpha" : "Adams",
        "bravo" : "Boston",
@@ -35,8 +36,10 @@ function phoneticLookup(val) {
        "foxtrot" : "Frank"
     };
 
-   result = lookup[val]
-  // Only change code above this line
+   
+   // assigning result with the data from the lookup object and the requested pair using the val
+    result = lookup[val]
+
   return result;
 }
 
